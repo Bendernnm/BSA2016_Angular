@@ -1,0 +1,1 @@
+const regUserName = /^[a-zA-Zà-ÿÀ-ß'][a-zA-Zà-ÿÀ-ß-' ]+[a-zA-Zà-ÿÀ-ß']?$u/;

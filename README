@@ -1,0 +1,6 @@
+bower i angular
+npm i express
+npm i mongodb
+node server.js
+
+https://drive.google.com/open?id=0By1NKj3-wrCaUWNWaDVRLU05YTg

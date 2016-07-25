@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="content/js/RegExp.js"></script>
+    <script src="controller/ChatCtrl.js"></script>
+</head>
+<body ng-app="ChatModule">
+<div id="conroller" ng-controller="ChatCtrl as chat">
+    <div ng-include="chat.showForm()"></div>
+    <div ng-include="'./view/chat_messages.html'"></div>
+    <button ng-click="chat.getMessages()">Online chat</button>
+</div>
+</body>
+</html>
